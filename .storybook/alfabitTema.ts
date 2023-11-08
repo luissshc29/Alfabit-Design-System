@@ -4,6 +4,6 @@ export default create({
   base: "dark",
   brandTitle: "Alfabit Design System",
   brandUrl: "https://github.com/NeiltonSeguins/alfabit-design-system",
-  brandImage: "logo.png",
+  brandImage: "./logo-alfabit-branco.png",
   brandTarget: "_self",
 });

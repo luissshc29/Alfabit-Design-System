@@ -12,11 +12,11 @@ const preview: Preview = {
       },
     },
     options: {
-        storySort: {
-            method: "alphabetical",
-            locales: "pt-BR",
-        },
-    }
+      storySort: {
+        method: "alphabetical",
+        locales: "pt-BR",
+      },
+    },
   },
 };
 
