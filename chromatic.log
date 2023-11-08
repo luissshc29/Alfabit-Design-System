@@ -7,52 +7,91 @@ Authenticating with Chromatic
 Authenticated with Chromatic
     → Using project token '****************ec15'
 Retrieving git information
-    → × Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
-Chromatic requires your Git repository to have at least one commit.
+Retrieved git information
+    → Commit '08da3a4' on branch 'main'; no ancestor found
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.3 for React; using the @storybook/nextjs builder (7.5.3); supported addons found: Links, Essentials, Interactions
+Initializing build
+Initialized build
+    → Build 1 initialized
+Building your Storybook
+    → Running command: npm run build-storybook -- --output-dir C:\Users\ISAACN~1\AppData\Local\Temp\chromatic--6192-FOJ33JzqHNcQ
+Storybook built in 1 minute 7 seconds
+    → View build log at C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [==                  ] 8%
+    → [===                 ] 14%
+    → [===                 ] 16%
+    → [====                ] 18%
+    → [====                ] 20%
+    → [======              ] 30%
+    → [=======             ] 33%
+    → [=======             ] 35%
+    → [=======             ] 36%
+    → [=======             ] 37%
+    → [========            ] 38%
+    → [========            ] 39%
+    → [=========           ] 43%
+    → [==========          ] 48%
+    → [==========          ] 49%
+    → [==========          ] 50%
+    → [==========          ] 51%
+    → [==========          ] 52%
+    → [===========         ] 53%
+    → [===========         ] 54%
+    → [===========         ] 55%
+    → [===========         ] 56%
+    → [============        ] 58%
+    → [============        ] 59%
+    → [============        ] 60%
+    → [============        ] 62%
+    → [=============       ] 65%
+    → [=============       ] 66%
+    → [=============       ] 67%
+    → [==============      ] 71%
+    → [==============      ] 72%
+    → [===============     ] 73%
+    → [===============     ] 74%
+    → [===============     ] 75%
+    → [===============     ] 77%
+    → [================    ] 81%
+    → [=================   ] 84%
+    → [==================  ] 89%
+    → [==================  ] 90%
+    → [==================  ] 92%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 98%
+    → [====================] 100%
+Publish complete in 15 seconds
+    → View your Storybook at https://654be2f6841b43f427dbad8a-vmypdsnzqc.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 1
+    → Continue setup at https://www.chromatic.com/setup?appId=654be2f6841b43f427dbad8a
+Running 60 tests
+    → This may take a few minutes
+i Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [                    ] 1/60  Avatar › Primary 
+    → [====                ] 13/60  Divider › Divisor With Props 
+    → [========            ] 25/60  Button › Tertiary 
+    → [=========           ] 26/60  Button › Tertiary Disabled 
+    → [============        ] 37/60  Input › Primary Label Disabled 
+    → [================    ] 47/60  Notice › Notice Error 
+    → [================    ] 49/60  Switch › Common Enabled 
+√ Build passed. Welcome to Chromatic!
+We found 12 components with 60 stories and took 60 snapshots.
+i Please continue setup at https://www.chromatic.com/setup?appId=654be2f6841b43f427dbad8a
+Build 1 auto-accepted
+    → Tested 60 stories across 12 components; captured 60 snapshots in 15 seconds
 
-× Failed to retrieve git information
-× Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
-Chromatic requires your Git repository to have at least one commit.
-→ View the full stacktrace below
 
-If you need help, please chat with us at https://www.chromatic.com/docs/cli for the fastest response.
-You can also email the team at support@chromatic.com if chat is not an option.
-
-Please provide us with the above CLI output and the following info:
-{
-  "timestamp": "2023-11-08T19:37:29.855Z",
-  "sessionId": "e2ab3243-2004-4fae-9311-e16f88562a49",
-  "nodePlatform": "win32",
-  "nodeVersion": "16.13.2",
-  "packageName": "chromatic",
-  "packageVersion": "7.6.0",
-  "flags": {
-    "projectToken": [
-      "chpt_54cf7148401ec15"
-    ],
-    "outputDir": [],
-    "storybookBuildDir": [],
-    "externals": [],
-    "onlyStoryFiles": [],
-    "onlyStoryNames": [],
-    "untraced": [],
-    "interactive": true,
-    "appCode": []
-  },
-  "configuration": {},
-  "buildScript": "storybook build",
-  "exitCode": 0,
-  "exitCodeKey": "OK",
-  "errorType": "Error",
-  "errorMessage": "× Failed to retrieve git information"
-}
-
-Error: × Failed to retrieve git information
-× Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
-Chromatic requires your Git repository to have at least one commit.
-    at bs (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:99:317)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-    at async mb (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:99:660)
-    at async nde (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:708:81)
-    at async Rvn (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:814:138)
-    at async XV.task (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:286:12749)
