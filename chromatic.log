@@ -1,0 +1,58 @@
+
+Chromatic CLI v7.6.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************ec15'
+Retrieving git information
+    → × Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
+Chromatic requires your Git repository to have at least one commit.
+
+× Failed to retrieve git information
+× Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
+Chromatic requires your Git repository to have at least one commit.
+→ View the full stacktrace below
+
+If you need help, please chat with us at https://www.chromatic.com/docs/cli for the fastest response.
+You can also email the team at support@chromatic.com if chat is not an option.
+
+Please provide us with the above CLI output and the following info:
+{
+  "timestamp": "2023-11-08T19:37:29.855Z",
+  "sessionId": "e2ab3243-2004-4fae-9311-e16f88562a49",
+  "nodePlatform": "win32",
+  "nodeVersion": "16.13.2",
+  "packageName": "chromatic",
+  "packageVersion": "7.6.0",
+  "flags": {
+    "projectToken": [
+      "chpt_54cf7148401ec15"
+    ],
+    "outputDir": [],
+    "storybookBuildDir": [],
+    "externals": [],
+    "onlyStoryFiles": [],
+    "onlyStoryNames": [],
+    "untraced": [],
+    "interactive": true,
+    "appCode": []
+  },
+  "configuration": {},
+  "buildScript": "storybook build",
+  "exitCode": 0,
+  "exitCodeKey": "OK",
+  "errorType": "Error",
+  "errorMessage": "× Failed to retrieve git information"
+}
+
+Error: × Failed to retrieve git information
+× Unable to execute command: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an" 
+Chromatic requires your Git repository to have at least one commit.
+    at bs (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:99:317)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async mb (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:99:660)
+    at async nde (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:708:81)
+    at async Rvn (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:814:138)
+    at async XV.task (C:\Users\Isaac Newton de Lima\Desktop\LUIS\Alura\Front - End\JavaScript\React com Javascript\React - Eleve seu nível de documentação do Storybook\alfabit-ds-projeto_base\node_modules\chromatic\dist\bin.js:286:12749)
